@@ -30,7 +30,7 @@ namespace Manaev
 
         public void NOVPR(int k)
         {
-            if (_k != 0 && _k < 100)
+            if (_k != 0 )
                 Console.WriteLine("Прямая перпендекулярная данной и проходящая через начало координат:y=-"+ (k) + "x");
         }
 
